@@ -1,0 +1,16 @@
+<h1>{{title}}</h1>
+
+<table>
+    <tr>
+        <th>Código</th>
+        <th>Tipo</th>
+        <th>Dirección</th>
+        <th>MetrosCuadrados</th>
+    </tr>
+    <tr *ngFor="let b of bienes | async">
+        <td>{{b.code}}</td>
+        <td>{{b.tipo}}</td>
+        <td>{{b.direccion}}</td>
+        <td>{{b.metros}}</td>
+    </tr>
+</table>

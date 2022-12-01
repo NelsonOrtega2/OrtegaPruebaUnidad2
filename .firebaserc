@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "pruebaortega-f634c": {
+      "hosting": {
+        "PruebaU2": [
+          "pruebaortega-f634c"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "pruebaortega-f634c"
+  }
+}
